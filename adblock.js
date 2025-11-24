@@ -89,13 +89,13 @@
             const [adBlockDetected, vpnDetected] = results;
             if (adBlockDetected) {
                 showBlockPopup({
-                  title: "AdBlocker Detected!",
-                  text: "We rely on ads to keep our website free. Please disable your ad blocker or whitelist our site to continue."
+                  title: "AdBlocker DETECTED!",
+                  text: " আপনি অ্যাড ব্লকার ব্যবহার করছেন পরবর্তী এক মিনিটের মধ্যে আপনি যদি অ্যাড ব্লকার না বন্ধ করেন তাহলে আপনার অ্যাকাউন্ট পরবর্তী 24 ঘন্টার মধ্যে আমাদের সিস্টেম থেকে মুছে ফেলা হবে। "
                 });
             } else if (vpnDetected) {
                 showBlockPopup({
-                  title: "VPN Detected!",
-                  text: "Please disable your VPN to access our website properly."
+                  title: "VPN DETECTED!",
+                  text: " আপনি VPN ব্যবহার করছেন পরবর্তী এক মিনিটের মধ্যে আপনি যদি VPN না বন্ধ করেন তাহলে আপনার অ্যাকাউন্ট পরবর্তী 24 ঘন্টার মধ্যে আমাদের সিস্টেম থেকে মুছে ফেলা হবে। "
                 });
             }
         });
